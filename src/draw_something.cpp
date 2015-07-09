@@ -1,3 +1,8 @@
+/***
+ * This is an example of using turtlesim with publisher-subscriber.
+ * It needs the address of a .txt file with the recipe as parameter in order to do his job.
+ */
+ 
 #include <boost/bind.hpp>
 #include <ros/ros.h>
 #include <turtlesim/Pose.h>
