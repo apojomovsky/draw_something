@@ -14,4 +14,20 @@ In the "recipes" folder, are included some examples of ready-to-use recipes for 
 
 This project was made as a "school project", to learn the principles of using ROS and the publisher-subscriber communication paradigm.
 
-## Installation
+### Dependencies
+
+* [catkin](http://www.ros.org/wiki/catkin) - cmake and Python based buildsystem
+* [ros_tutorials](https://github.com/ros/ros_tutorials) - needed for turtlesim
+
+### Install
+
+Get the code:
+
+    git clone https://github.com/apojomovsky/draw_something.git
+
+Build the workplace where you placed the repository:
+
+    catkin_make
+
+
+
