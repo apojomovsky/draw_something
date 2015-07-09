@@ -4,8 +4,8 @@ Draw shapes using the trace left by turtlesim
 
 ### Synopsis
 
-The draw_something library let you use the trace left by turtlesim for drawing figures.
-These figures depend on the input files or recipes, where are specified the distances and angles in such an order that allows generating the desired figure.
+The draw_something library let you use the trace left by turtlesim for drawing figures. It is based ont the draw_square node from the turtlesim package but with supercharged capabilities.
+The figures depend on the input files or recipes, where are specified the distances and angles in such an order that allows generating the desired figure.
 
 ### Code Example
 
@@ -29,6 +29,11 @@ Get the code:
 Build the workplace where you placed the repository:
 
     catkin_make
+    
+Update the setup.bash script:
+
+    <workspace>/source devel/setup.bash
+
 
 ### Running the code
 
